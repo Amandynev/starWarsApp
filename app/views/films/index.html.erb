@@ -1,0 +1,19 @@
+
+<h1>Personnages par films</h1>
+
+<div id="films">
+  <% @films.each do |film| %>
+      <tr>
+        <td class="fw-bold"><%= film[:title] %></td>
+        <td>
+          <ul>
+            <% film[:characters].each do |character| %>
+              <li>
+                <%= "Nom: #{character[:name]}, Masse: #{character[:mass]}, Planète d'origine: #{character[:homeworld]}" %>
+              </li>
+            <% end %>
+          </ul>
+        </td>
+      </tr>
+    <% end %>
+</div>
