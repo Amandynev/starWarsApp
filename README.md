@@ -1,16 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description du Projet
 
-Things you may want to cover:
+Affichage de la liste des personnages de star wars de minimum 75kilos groupés par film.
+
+## Ruby version
 
   `ruby 3.1.2`
 
-Utilisation de la gem HTTParty
+## Gem utilisées
+Lancer un `bundle install` pour pouvoir utiliser les gems.
 
   `bundle install`
 
-Database initialization
+## Préparation de la base de donnée 
 
   `rails db:create rails db:migrate`
