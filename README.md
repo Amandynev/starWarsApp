@@ -5,20 +5,12 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+  `ruby 3.1.2`
 
-* System dependencies
+Utilisation de la gem HTTParty
 
-* Configuration
+  `bundle install`
 
-* Database creation
+Database initialization
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  `rails db:create rails db:migrate`
